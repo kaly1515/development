@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto" )
+
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body {
+font family:'Open Sans';
+}
+a {
+	text-decoration:none;
+}
+div#header {
+	width:500%;
+	height:50px;
+	background-color: red;
+	margin: 0 auto;
+	
+}
+.logo {
+	
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+.logo a {
+	font-size:1.6em;
+	color:#fff;
+	
+
+
+}
+.logo a span
+{
+	font-weight:300;
+}
+div#container {
+	width:100%;
+	margin:0 auto;
+}
+.sidebar {
+	width:250px;
+	height: 100%;
+	background color:black;
+	float:left;
+}
+
+	
+
+ul#nav {
+}
+ul#nav li {
+	list-style:none;
+}
+ul#nav li a {
+	color:#ccc;
+	display:block;
+	padding:12px;
+	font-size:1.2em;
+	border-bottom:1px;
+	-webkit-transition:0.2s;
+	-moz-transition:0.2s;
+	-o-transition:0.2s;
+	transition:0.2s;
+	
+}
+ul#nav li a:hover {
+	background-color:#030303;
+	color:fff;
+}
+ul#nav li a :selected {
+	background-color:#030303;
+	color:fff;
+	padding-left:30px;
+}
+.content {
+	width:auto;
+	margin-left:250px;
+	height:100px;
+	background-color:#white;
+	float:left;
+	padding:15px;
+
+}
+
+.content p {
+	color:#424242;
+	font-size:1.0em;
+}
+div#box {
+	margin-top:15px;
+}
+div#box-top {
+	color:#fff;
+	text-shadow:0px 0px 1px #ddd;
+	background-color:#2980b9;
+	padding:5px;
+}
+div#box . box panel {
+	padding:15px;
+	background-color:#fff;
+}
+	
+	
+	
+	
+
+	
+	
+	
+
+
